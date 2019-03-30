@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo5</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//数字类型转换三种方式
+
+		//Number() 数字类型转换
+		var num5=Number('hello ,world!');
+		console.log(num5);
+		var num6=Number("");//0
+		console.log(num6);
+		var num7=Number("000121");
+		console.log(num7);
+		var num8=Number(true);
+		console.log(num8);
+
+
+		//parseInt() 解析为整型 看数值类型
+
+		var num9=parseInt("");//NaN
+		console.log(num9);
+		var num10=parseInt("1213blue");
+		console.log(num10);
+		var num11=parseInt("0xA");
+		console.log(num11);
+		var num12=parseInt("22.5");
+		console.log(num12);
+		var num13=parseInt("70");
+		console.log(num13);
+	</script>
+</body>
+</html>
