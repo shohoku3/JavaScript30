@@ -8,7 +8,37 @@
 	<script type="text/javascript">
 		
 		//boolean 类型
-		 
+
+		var message="hello world";
+		if(message){
+			console.log("value is true");
+		}
+
+		// 类型转换
+		var num =23;
+		console.log(Boolean(num));
+
+		var str="hello world!";
+		console.log(Boolean(str));
+
+		var num2 =0;
+		console.log(Boolean(num2));//false
+
+		var str2="";
+		console.log(Boolean(str2));//false
+
+		var num3=NaN;
+		console.log(Boolean(num3));
+
+		var car2=null;
+		console.log(Boolean(car2));
+
+		var num4;//default undefined;
+
+		console.log(typeof num4);
+		console.log(typeof num5);
+		console.log(Boolean(num4));
+
 	</script>
 </body>
 </html>
