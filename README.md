@@ -5,3 +5,4 @@ demo1 --undefined
 demo2 --null  
 demo3 --blooean  类型转换  
 demo4 --number NaN
+demo5 --Number() parse
