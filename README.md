@@ -1,6 +1,6 @@
 # JavaScript30
 Javascript 30 day challenge
 
-demo1 --undefined /n
+demo1 --undefined 
 demo2 --null
 demo3 --blooean
