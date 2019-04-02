@@ -59,6 +59,56 @@
        	console.log(!"");
        	console.log(!NaN);
        	console.log(!12334);
+       	console.log("test");
+
+       	//逻辑与 -- false 
+       	/*var found = true;
+       	var result5 = (found && someUndefinedVariable);
+       	console.log(result5);*/ //not defined
+
+       	var found =false;
+       	var result6 = (found && someUndefinedVariable);
+       	console.log(result6); 
+
+       	// 逻辑或 -- true
+       	var found1 = true;
+       	var result7 = (found1 || someUndefinedVariable1);
+       	console.log(result7);
+
+       	//var myObject = preferredOnject||backObject;
+       	//console.log("确保赋值不为空")
+
+       	//乘法
+       	var result8 = Infinity * 0;
+       	console.log(result8);//NAN
+
+       	var result9 = NaN * 10;
+       	console.log(result9);//NAN
+
+       	var result10 = Infinity * 10 ;
+       	console.log(result10);//Infinity
+
+       	var result11 = Infinity * Infinity;
+       	console.log(result11);//Infinity
+
+       	//除法
+       	//常见的未定式 0/0 inf/inf inf-inf inf*0 inf^0 1^inf 0^0
+       	var result12 = 12 /NaN;
+       	console.log(result12);//NAN
+
+       	var result13 = Infinity / Infinity;
+       	console.log(result13);//NAN
+
+       	var result14 = 0/ 0;
+       	console.log(result14);//NAN
+
+       	var result15 = 123/0 ;
+       	console.log(result15);//NAN
+
+       	//取模
+       	
+
+
 
 
     </script>
